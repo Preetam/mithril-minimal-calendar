@@ -1,11 +1,5 @@
-# mithril-minimal-calendar
-
-![Screenshot](https://user-images.githubusercontent.com/379404/27163599-7866ac7a-5156-11e7-8ad2-f80e956b5688.png)
-
-## Usage
-
-```js
 var m = require("mithril")
+
 var calendar = require("./calendar")
 
 var App = {
@@ -20,8 +14,5 @@ var App = {
     ]
   }
 }
-```
 
-## License
-
-MIT
+m.mount(document.getElementById("app"), App)

@@ -1,0 +1,49 @@
+body {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.mithril-minimal-calendar {
+  width: 210px;
+  font-size: 10px;
+  color: #666;
+  padding: 0;
+  margin: 0;
+}
+
+.mithril-minimal-calendar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mithril-minimal-calendar li {
+  width: 30px;
+  height: 30px;
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  line-height: 32px;
+  opacity: 0.9;
+}
+
+.mithril-minimal-calendar li.day {
+  opacity: 0.3;
+}
+
+.mithril-minimal-calendar li.valid:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.mithril-minimal-calendar li.selected {
+  background-color: #eee;
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
