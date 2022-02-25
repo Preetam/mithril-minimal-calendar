@@ -10,7 +10,7 @@
   "repository": "github.com/Preetam/mithril-minimal-calendar",
   "license": "MIT",
   "dependencies": {
-    "mithril": "^1.1.1"
+    "mithril": "^2.0.3"
   },
   "devDependencies": {
     "webpack": "^2.6.1"
